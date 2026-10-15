@@ -239,9 +239,9 @@ Version Control: Git & GitHub
             addPetId-getFind-putExist-deletePet.ts
 
 ```
-## 📊 Test Coverage
+## 📊 Test Suite & Test Coverage
 
-| Nama Test Case | Method | Expected Status | Status |
+| Nama Test Suite | Method | Expected Status | Status |
 | --- | --- | --- | --- |
 | Add Pet, Get Find Pet, Delete Not Found | E2e | 200 OK |🟢 PASSED |
 | Add Pet, Get Find Pet, Put Existing Pet , Delete Pet | E2e | 200 OK |🟢 PASSED |
