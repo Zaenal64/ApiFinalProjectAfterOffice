@@ -1,4 +1,4 @@
-<h1 align="center">Katalon Petstore API Automation Testing (katalon-petstore-api)</h1>
+<h1 align="center">📊 Katalon Petstore API Automation Testing (katalon-petstore-api)</h1>
 
 ![Katalon Studio](https://img.shields.io/badge/Tool-Katalon%20Studio%20v11.x-green)
 ![App](https://img.shields.io/badge/Api-petstore.swagger.io-orange)
@@ -239,7 +239,7 @@ Version Control: Git & GitHub
             addPetId-getFind-putExist-deletePet.ts
 
 ```
-## 📊 Test Suite & Test Coverage
+## 📈 Test Suite & Test Coverage
 
 | Nama Test Suite | Method | Expected Status | Status |
 | --- | --- | --- | --- |
