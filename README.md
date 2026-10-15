@@ -4,13 +4,11 @@
 ![App](https://img.shields.io/badge/Api-petstore.swagger.io-orange)
 
  ## 📌 Project Overview </h3>
-
 This repository contains an automated API testing suite built with Katalon Studio to test the endpoints of the public Swagger Petstore API (https://petstore.swagger.io/v2).
 
 The project covers CRUD operations (Create, Read, Update, Delete) on the /pet resource. It is structured using modular Test Cases, Object Repository dynamic variables, and custom Groovy scripts to validate response status codes, JSON schema structures, and response body payloads for both positive and negative testing scenarios.
 
 ## 🛠️ Tech Stack & Tools
-
 Testing Tool: Katalon Studio v11.x
 Programming Language: Groovy / Java
 Target API: Swagger Petstore REST API (v2)
@@ -18,7 +16,6 @@ Data Format: JSON
 Version Control: Git & GitHub
 
 ## 📂 Project Structure
-
 ```text
 |   .classpath
 |   .gitignore
@@ -240,7 +237,6 @@ Version Control: Git & GitHub
 
 ```
 ## 📈 Test Suite & Test Coverage
-
 | Nama Test Suite | Method | Expected Status | Status |
 | --- | --- | --- | --- |
 | Add Pet, Get Find Pet, Delete Not Found | E2e | 200 OK |🟢 PASSED |
@@ -248,7 +244,6 @@ Version Control: Git & GitHub
 | Add Pet, Get Find Pet, Put Server Error | E2e | 200 OK | 🟢 PASSED |
 
 ## 🧪 Test Suite Configuration
-
 All individual test cases are aggregated into the main execution suite:
 * Test Suite Path: Test Suites/test
 * Execution Mode: Sequential / Parallel
@@ -260,7 +255,6 @@ All individual test cases are aggregated into the main execution suite:
 5. Cleans up created records (DELETE).
 
 ## 🚀 How to Run the Tests
-
 Prerequisites
 1. Install Katalon Studio (Version 8.x or 11.x recommended).
 2. Active internet connection to reach https://petstore.swagger.io.
@@ -278,7 +272,6 @@ Launch Katalon Studio -> File -> Open Project -> Select the katalon-petstore-api
     * Click Run to execute all test cases in sequence.
 
 ## 📝 Key Features & Implementation Highlights
-
 * Dynamic Test Data: Uses System.currentTimeMillis() and BigInteger in Groovy scripts to generate random, collision-free IDs and names during execution.
 * Global Variables Sharing: Pass dynamic variables across multiple API test cases sequentially using GlobalVariable.
 * Assertions & Validations:
@@ -287,6 +280,6 @@ Launch Katalon Studio -> File -> Open Project -> Select the katalon-petstore-api
  * Response Body parsing using groovy.json.JsonSlurper.
 
  ## ⚠️ Notes
- 
+
 * Secrets & Credentials: No passwords, private API keys, or tokens are committed to this repository.
 * Public Server Behavior: petstore.swagger.io is a public demo environment, so mock/overflow tests (like status 500) are calibrated to simulate backend integer limit handling.
