@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Put-Pet-ServerError</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Nayla Azzahra</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Nayla Azzahra</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>3f8111fd-aca8-4b66-88cd-6f48b27506c8</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>3f8111fd-aca8-4b66-88cd-6f48b27506c8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aed42c38-c3c5-4c7f-9582-7e07acc3eb23</testCaseGuid>
+</TestCaseEntity>
