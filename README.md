@@ -1,6 +1,9 @@
-<h3 align="center">Katalon Petstore API Automation Testing (katalon-petstore-api)</h3>
+<h1 align="center">Katalon Petstore API Automation Testing (katalon-petstore-api)</h1>
 
-<h3>📌 Project Overview </h3>
+![Katalon Studio](https://img.shields.io/badge/Tool-Katalon%20Studio%20v11.x-green)
+![App](https://img.shields.io/badge/Api-petstore.swagger.io-orange)
+
+ # 📌 Project Overview </h3>
 
 This repository contains an automated API testing suite built with Katalon Studio to test the endpoints of the public Swagger Petstore API (https://petstore.swagger.io/v2).
 
